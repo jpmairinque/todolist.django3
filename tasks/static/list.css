@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+
+     font-family: Quicksand, sans-serif !important;
+     background-color: #086972;
+     display: flex;
+     justify-content: center;
+}
+
+.tarefa {
+
+    width: 90%;
+}
+
+.taskinput{
+    padding: 15px;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.taskbox{
+    margin-bottom: 40px;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header img{
+    width: 60px;
+  
+ 
+}
+
+.mainbox{
+   
+    padding: 3rem;
+    width: 700px;
+    margin-top: 3rem;
+    min-height: 700px;
+    background-color: #17b978;
+    border-radius: 15px;
+}
+
+.add{
+    
+    font-family: Quicksand, sans-serif !important;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #071a52;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+
+.add:hover{
+    background-color: #253564;
+}
+
+.edit{
+
+    text-decoration: none;
+    font-family: Quicksand, sans-serif !important;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #1f4287;
+    color: white;
+
+}
+
+.apagar{
+    text-decoration: none;
+    font-family: Quicksand, sans-serif !important;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #f85959;
+    color: white;
+
+
+}
+
+h3{
+    color: #a7ff83;
+    font-size: 3rem;
+}
+
+span{
+    color: black;
+    margin-left: 10px;
+}
+
+small{
+    font-size: 1.5rem
+}

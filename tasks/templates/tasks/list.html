@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'list.css' %}">
+  
+    <title>Lista de Afazeres</title>
+</head>
+<body>
+
+<div class="mainbox">
+
+<div class="header">
+<h3>Bem vindo(a), {{user.username}}</h3>
+<a href="logout"><img  src="{% static 'logout.png' %}" alt=""></a>
+
+
+</div>
+
+<small>o que deseja fazer hoje?</small>
+
+
+<form method="POST" action="/">
+    {% csrf_token %}
+    {{form.title}}
+    <input class="add" type="submit" value="Adicionar">
+</form>
+
+{% for task in tasks %}
+
+    {% if task.user == request.user %}
+    
+    
+    <div class="taskbox">
+    <a class="edit" href="{% url 'update_task' task.id%}">Editar</a>
+    <a class="apagar" href="{% url 'delete' task.id%}">Apagar</a>
+    
+    <span>{{task}} </span>
+
+    
+    </div>
+    {% endif %}
+
+
+
+{% endfor %}   
+
+</div>
+
+</body>
+</html>
+
+
+
