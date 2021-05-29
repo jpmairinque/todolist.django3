@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+
+     font-family: Quicksand, sans-serif !important;
+     background-color: #086972 !important;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.signupbox{
+
+    background-color: aliceblue;
+    padding: 4rem;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.btn{
+    color: white;
+    position: relative;
+    background-color: #17b978;
+    left: 500px;
+}
