@@ -37,7 +37,7 @@
     
     <div class="taskbox">
     <a class="edit" href="{% url 'update_task' task.id%}">Editar</a>
-    <a class="apagar" href="{% url 'delete' task.id%}">Apagar</a>
+    <a class="apagar" href="{% url 'delete' task.id%}">X</a>
     
     <span>{{task}} </span>
 
@@ -50,6 +50,7 @@
 {% endfor %}   
 
 </div>
+
 
 </body>
 </html>

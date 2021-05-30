@@ -12,15 +12,18 @@
 </head>
 <body>
  <div class="editbox">
+<div class="header">
+<a href="/"><img class="back" src="{% static 'arrow.png' %}" alt=""></a>
 <h3>Editar tarefa</h3>
 
+</div>
 <form method="POST" action="">
 
     {% csrf_token %}
 
     {{form.title}}
 
-    <input class="add" type="submit" value="Update Task">
+    <input class="add" type="submit" value="Pronto">
 </form>
 
 </div>   

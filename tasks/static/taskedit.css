@@ -16,6 +16,7 @@ body{
     background-color: #17b978;
     border-radius: 15px;
     padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 
@@ -51,4 +52,14 @@ h3{
 .add:hover{
 
     background-color: #253564;
+}
+
+.header{
+    display: flex;
+    
+}
+.header img{
+
+    width: 50px;
+    margin-right: 15px;
 }

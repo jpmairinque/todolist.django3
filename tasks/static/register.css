@@ -27,6 +27,7 @@ h1{
     padding: 4rem;
     width: 700px;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn{
