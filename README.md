@@ -1,4 +1,4 @@
-# ToDoList - Lista de Taredas com Django 3.0 📄👨🏽‍💻
+# ToDoList - Lista de Tarefas com Django 3.0 📄👨🏽‍💻
 
 A aplicação permite a realização de login e logout, de modo que cada usuário cadastrado tenha acesso à sua própria lista.
 
